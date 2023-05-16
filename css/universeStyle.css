@@ -1,0 +1,165 @@
+/* Put all of the CSS code for elements that repeat in this file */
+/* Examples of repeating elements include buttons, colors, font, font size */
+/* Comment a short description of what the CSS is for */
+/* command + / is the keyboard shohrtcut to write a comment */
+
+html,
+body {
+  height: 100%;
+  box-sizing: content-box;
+}
+/* Laura */
+body {
+  background: #ffffff;
+  /* copy and paste the below html code into the <head> of the html file so the font works*/
+  /* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> */
+  font-family: "Prompt", sans-serif;
+}
+/* Laura End*/
+/* Evelyn */
+header {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 100px);
+  padding: 0 1.25em; /* 20 px / 16 px font size = 1.25em */
+}
+/* Evelyn End*/
+
+/* Laura's Code */
+h1 {
+  /* header font color is blue */
+  color: #0218be;
+}
+
+/* form & input are for the text-field boxes that users input their email/password/username */
+form {
+  font-weight: 500;
+}
+input {
+  background-color: #cee5ff;
+  width: 100%;
+  height: 2.6875em; /* 43 px / 16 px font size = 2.6875em */
+  border: none;
+  border-bottom: 2px solid #0218be;
+}
+
+/* .button is for the buttons at the bottom of every onboarding page */
+/* copy this html code into the html file for the button: <a href="linkName.html" class="button"></a> 
+put the .buttonContainer div around all buttons.*/
+.button {
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.0625em; /* 17 px / 16 px font size = 1.0625em */
+  font-weight: 500;
+  margin: 0.9375em 0px; /* 15 px / 16 px font size = 0.9375 em */
+  cursor: pointer;
+  border-radius: 3.125em; /* 50 px / 16 px font size = 3.125em */
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0.9375em 0; /* 15 px / 16 px font size = 0.9375 em */
+}
+/* Laura End*/
+
+/* Cyril's Code */
+/* Code to make a button light blue - add the class name to the html */
+.lightblue {
+  background-color: #cee5ff;
+  color: black;
+}
+/* Code to make a button dark blue - add the class name to the html */
+.darkblue {
+  background-color: #0218be;
+}
+/* Cyril's End */
+
+/* Laura's Code*/
+/* the navigation across the bottom of the page containing icons for home, chat, settings */
+nav {
+  width: 100%;
+  height: 5.0625em; /* 81 px / 16 px font size = 5.0625 em */
+  background-color: #0218be;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+/* the home icon for bottom navigation */
+.homeLink {
+  color: white;
+}
+
+/* the chat icon for bottom navigation */
+
+.chatLink {
+  color: white;
+}
+/* the settings icon for bottom navigation */
+
+.settingsLink {
+  color: white;
+}
+/* Below is code for all of the icons for the bottom navigation */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 48;
+}
+/* Below is the Range Slider code */
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 0.3125em; /* 5 px / 16 px font height = 0.3125em */
+  border-radius: 5px;
+  border: none;
+  background: #cee5ff;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #0218be;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #0218be;
+  cursor: pointer;
+}
+/* END range slider */
+/* Laura's End*/
+
+/* Evelyn's code */
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+footer {
+  padding-bottom: 6.25em; /* 100 px / 16 px font size = 6.25em*/
+}
+/* Evelyn's End */

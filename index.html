@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Chatroom</title>
+
+  <!-- link to the bridgeStyle.css sheet -->
+  <link rel="stylesheet" href="css/universeStyle.css" />
+  <!-- This is for Evelyn's -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="script.js" />
+  <!-- link to the Prompt google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- link to the Google chat icon -->
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- link to the Google settings icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- link to the video chat icon  -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <script type="text/javascript" src="https://p5livemedia.itp.io/simplepeer.min.js"></script>
+  <script type="text/javascript" src="https://p5livemedia.itp.io/socket.io.js"></script>
+  <script type="text/javascript" src="https://p5livemedia.itp.io/p5livemedia.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+  <style>
+    .homeLink {
+      color: #ffffff;
+    }
+
+    .chatLink {
+      color: #93c5ff;
+    }
+
+    .settingsLink {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<style>
+  /* a {
+  text-decoration: none;
+  font-size:40px;
+  /* padding-bottom: 20px; */
+
+  }
+
+  */
+</style>
+
+<body>
+  <div class="backbutton">
+    <a href="nuchatlist.html" style=' text-decoration: none; font-size:40px;'' class="previous round">&#8249;</a>
+    </div>
+    <div class="wrapper chattop">
+        
+      <header>
+        
+         
+        <div class="chatcontainer">
+          <div class="avatar">
+            <img
+              src="image/foximg.png"
+              alt="Avatar 6"
+              width="100"
+              height="100"
+            />
+          </div>
+          <div class="chatusername username">
+            <p style=' font-size:20px; color: #0218be;'><b>Perfect Unit</b>
+      <!-- video chat icon -->
+
+      <a href="video.html" class="videocall"><span class="material-symbols-outlined">
+          videocam
+        </span></a>
+
+      <p>
+        <!-- Home Icon -->
+
+        <p>Active <span class="dot"></span></p>
+  </div>
+  <!-- <div class="state">
+             
+            </div> -->
+  </div>
+  </div>
+  <!-- <p>
+          Your real name is not shared until after you meet. We want everyone
+          open and clear of judgment or biases!
+        </p> -->
+  </header>
+
+  <section class="conversation">
+    <!-- conversation boxs -->
+    <div class="chats">
+
+      <!-- <span class="u1 chat">Hey sam, whats up?</span> -->
+      <span class="u2 chat">Hey! Nice to see you :)</span>
+      <span class="u1 chat">:) Hey~ Smooth Pixel~ like your name!</span>
+      <span class="u2 chat">Hey~ let's video chat?</span>
+      <span class="u1 chat">Sure! :) </span>
+
+    </div>
+
+    <div id="chat-box" class="chat-box">
+      <p style='color: #fff;'>Perfect Unit has invited you to a video call.</p>
+      <div class="btn-group">
+        <button class="btn-accept">Deny</button>
+        <button class="btn-deny"> <a href="video.html"> Accept </a></button>
+      </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+    <section class="sendbox">
+
+
+
+
+      <input type="text" id="ip2" />
+      <a href="#" class="buttonsend darkblue">send</a>
+    </section>
+    <!-- <script src="avatar.js"></script> -->
+
+    <!-- The navigation is a flexbox row -->
+    <footer>
+      <nav>
+        <!-- Home Icon -->
+        <a href="#" class="homeLink">
+          <span class="material-symbols-outlined"> home</span>
+        </a>
+        <!-- Chat Icon -->
+        <a href="#" class="chatLink">
+          <span class="material-symbols-outlined"> chat_bubble</span>
+        </a>
+        <!-- Settings Icon -->
+        <a href="#" class="settingsLink">
+          <span class="material-symbols-outlined"> settings</span>
+        </a>
+      </nav>
+    </footer>
+</body>
+
+</html>
